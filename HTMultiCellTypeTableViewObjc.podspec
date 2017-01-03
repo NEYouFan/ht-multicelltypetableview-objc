@@ -29,12 +29,12 @@ Pod::Spec.new do |s|
 
   s.license      = "MIT"
 
-  s.author             = { "netease" => "baitianyu2009@gmail.com" }
+  s.author       = { "netease" => "baitianyu2009@gmail.com" }
 
   s.platform     = :ios, "7.0"
 
-  s.source       = { :git => "https://github.com/NEYouFan/ht-refreshview-ios.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/NEYouFan/ht-multicelltypetableview-objc.git", :tag => s.version.to_s }
 
-  s.source_files  = "HTRefreshView/*.{h,m}"
+  s.source_files  = "HTMultiCellTypeTableViewObjc/*.{h,m}"
 
 end
