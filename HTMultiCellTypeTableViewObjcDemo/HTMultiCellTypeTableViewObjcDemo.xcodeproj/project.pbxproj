@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8158991502CF2B434041A783 /* libPods-HTMultiCellTypeTableViewObjcDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 927CD19F38E6EFB026479D32 /* libPods-HTMultiCellTypeTableViewObjcDemo.a */; };
 		BFD79F981E1B9F0300084544 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD79F801E1B9F0300084544 /* AppDelegate.m */; };
 		BFD79F991E1B9F0300084544 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFD79F811E1B9F0300084544 /* Assets.xcassets */; };
 		BFD79F9A1E1B9F0300084544 /* MCDemoCell1.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD79F841E1B9F0300084544 /* MCDemoCell1.m */; };
@@ -22,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		927CD19F38E6EFB026479D32 /* libPods-HTMultiCellTypeTableViewObjcDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HTMultiCellTypeTableViewObjcDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A4D853375E4F1A75217032E /* Pods-HTMultiCellTypeTableViewObjcDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTMultiCellTypeTableViewObjcDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HTMultiCellTypeTableViewObjcDemo/Pods-HTMultiCellTypeTableViewObjcDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		BF4B94BD1DACC4E000205DEB /* HTMultiCellTypeTableViewObjcDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HTMultiCellTypeTableViewObjcDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFD79F7F1E1B9F0300084544 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BFD79F801E1B9F0300084544 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -44,6 +47,7 @@
 		BFD79F951E1B9F0300084544 /* UIView+MCLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MCLine.m"; sourceTree = "<group>"; };
 		BFD79F961E1B9F0300084544 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		BFD79F971E1B9F0300084544 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D26D8055EDC26DBFDA0E7F86 /* Pods-HTMultiCellTypeTableViewObjcDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTMultiCellTypeTableViewObjcDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-HTMultiCellTypeTableViewObjcDemo/Pods-HTMultiCellTypeTableViewObjcDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,17 +55,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8158991502CF2B434041A783 /* libPods-HTMultiCellTypeTableViewObjcDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08895D71067EDCE99B6443BB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A4D853375E4F1A75217032E /* Pods-HTMultiCellTypeTableViewObjcDemo.debug.xcconfig */,
+				D26D8055EDC26DBFDA0E7F86 /* Pods-HTMultiCellTypeTableViewObjcDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BF4B94B41DACC4E000205DEB = {
 			isa = PBXGroup;
 			children = (
 				BFD79F7E1E1B9F0300084544 /* HTMultiCellTypeTableViewObjcDemo */,
 				BF4B94BE1DACC4E000205DEB /* Products */,
+				08895D71067EDCE99B6443BB /* Pods */,
+				D64063092C0AFCFE4D68AC28 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +141,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		D64063092C0AFCFE4D68AC28 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				927CD19F38E6EFB026479D32 /* libPods-HTMultiCellTypeTableViewObjcDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF4B94D41DACC4E000205DEB /* Build configuration list for PBXNativeTarget "HTMultiCellTypeTableViewObjcDemo" */;
 			buildPhases = (
+				3CD518E9F8DD8C0ED0831EAD /* [CP] Check Pods Manifest.lock */,
 				BF4B94B91DACC4E000205DEB /* Sources */,
 				BF4B94BA1DACC4E000205DEB /* Frameworks */,
 				BF4B94BB1DACC4E000205DEB /* Resources */,
+				7B771744ED95349B6178DB3B /* [CP] Embed Pods Frameworks */,
+				2255C9E195FBA59043B683D3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -191,6 +218,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2255C9E195FBA59043B683D3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HTMultiCellTypeTableViewObjcDemo/Pods-HTMultiCellTypeTableViewObjcDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3CD518E9F8DD8C0ED0831EAD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7B771744ED95349B6178DB3B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HTMultiCellTypeTableViewObjcDemo/Pods-HTMultiCellTypeTableViewObjcDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BF4B94B91DACC4E000205DEB /* Sources */ = {
@@ -305,28 +380,30 @@
 		};
 		BF4B94D51DACC4E000205DEB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A4D853375E4F1A75217032E /* Pods-HTMultiCellTypeTableViewObjcDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = SM77JMFHDC;
-				INFOPLIST_FILE = "$(SRCROOT)/HTMultiCellTypeTableViewOC/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/HTMultiCellTypeTableViewObjcDemo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.baitianyu.HTMultiCellTypeTableViewOC;
+				PRODUCT_BUNDLE_IDENTIFIER = com.baitianyu.HTMultiCellTypeTableViewOCDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		BF4B94D61DACC4E000205DEB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D26D8055EDC26DBFDA0E7F86 /* Pods-HTMultiCellTypeTableViewObjcDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = SM77JMFHDC;
-				INFOPLIST_FILE = "$(SRCROOT)/HTMultiCellTypeTableViewOC/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/HTMultiCellTypeTableViewObjcDemo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.baitianyu.HTMultiCellTypeTableViewOC;
+				PRODUCT_BUNDLE_IDENTIFIER = com.baitianyu.HTMultiCellTypeTableViewOCDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

@@ -3,5 +3,5 @@ platform :ios, '7.0'
 
 target :HTMultiCellTypeTableViewObjcDemo do
   pod 'Masonry'
-  pod 'HTMultiCellTypeTableViewObjc' :path => '../'
+  pod 'HTMultiCellTypeTableViewObjc', :path => '../'
 end

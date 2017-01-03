@@ -1,0 +1,19 @@
+PODS:
+  - HTMultiCellTypeTableViewObjc (0.0.1)
+  - Masonry (1.0.2)
+
+DEPENDENCIES:
+  - HTMultiCellTypeTableViewObjc (from `../`)
+  - Masonry
+
+EXTERNAL SOURCES:
+  HTMultiCellTypeTableViewObjc:
+    :path: ../
+
+SPEC CHECKSUMS:
+  HTMultiCellTypeTableViewObjc: 9997d713b12df0eebf9ddd303f0e08835ad94485
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+
+PODFILE CHECKSUM: fbca273e3cfa21ce18a36a5382022607cd19ea2b
+
+COCOAPODS: 1.1.1

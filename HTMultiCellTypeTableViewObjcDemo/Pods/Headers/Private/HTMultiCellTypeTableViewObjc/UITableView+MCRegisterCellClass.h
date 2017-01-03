@@ -1,0 +1,1 @@
+../../../../../HTMultiCellTypeTableViewObjc/UITableView+MCRegisterCellClass.h
