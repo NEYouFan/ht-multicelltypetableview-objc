@@ -26,8 +26,10 @@
 }
 
 - (CustomCellBlock)defaultCustomCellBlock {
+    __weak typeof(self) wkSelf = self;
     return ^(MCTableBaseCell *cell, MCTableBaseDescribeData *describeData) {
-        _cell = cell;
+        __strong typeof(self) sgSelf = wkSelf;
+        sgSelf.cell = cell;
         cell.describeData = describeData;
     };
 }
